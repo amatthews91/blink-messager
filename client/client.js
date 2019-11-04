@@ -1,7 +1,7 @@
 const Blink1 = require('node-blink1');
 const WebSocket = require('ws')
 
-const connection = new WebSocket('ws://localhost:3000');
+const connection = new WebSocket('ws:/blink-messager.herokuapp.com/');
 const blink = new Blink1();
 
 const pubs = {
